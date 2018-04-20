@@ -1,0 +1,143 @@
+{
+    "acquisition_software": "Pychron17.7(Exp0.2,DVC0.1)", 
+    "aliquot": 1, 
+    "analysis_type": "unknown", 
+    "analyst_name": "MHeizler", 
+    "comment": "F:11 Muscovite Unheated 212_150 micron, ~ 2 mg", 
+    "commit": "effe49e1d1b509fb2e44e911e31d2413ca9a585e", 
+    "conditionals": [
+        {
+            "analysis_types": null, 
+            "frequency": 10, 
+            "hash_id": -1968437110689483916, 
+            "level": 10, 
+            "location": "setupfiles/spectrometer/default_conditionals.yaml", 
+            "ntrips": 1, 
+            "start_count": 5, 
+            "teststr": "L2(CDD).deflection==3250"
+        }
+    ], 
+    "data_reduction_software": "Pychron17.7(DVC0.1)", 
+    "detectors": {
+        "AX": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0.0, 
+            "gain": 0
+        }
+    }, 
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor", 
+                "name": "Lab Hum.", 
+                "pub_date": "2018-04-19T20:44:03", 
+                "title": "iServer Hum.", 
+                "value": 23.6
+            }, 
+            {
+                "device": "RPiWeather", 
+                "name": "Lab Hum. 2", 
+                "pub_date": "2018-04-19T20:45:41", 
+                "title": "Base Station Hum.", 
+                "value": 24.7639541625977
+            }
+        ], 
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure", 
+                "name": "Pressure", 
+                "pub_date": "2018-04-19T20:37:55", 
+                "title": "Building", 
+                "value": 100.6
+            }, 
+            {
+                "device": "AirPressure2", 
+                "name": "Pressure2", 
+                "pub_date": "2018-04-19T19:53:39", 
+                "title": "Lab", 
+                "value": 88.5
+            }, 
+            {
+                "device": "RPiWeather", 
+                "name": "Lab Pressure", 
+                "pub_date": "2018-04-19T19:32:30", 
+                "title": null, 
+                "value": 858.03955078125
+            }, 
+            {
+                "device": "MicroBoneGaugeController", 
+                "name": "JanDecabinPressure", 
+                "pub_date": "2018-04-19T16:30:18", 
+                "title": "Jan Decabin", 
+                "value": 1.4
+            }
+        ], 
+        "lab_temperatures": []
+    }, 
+    "experiment_queue_name": "Furnace_4_19_2018_musc", 
+    "extraction": "felix_furnace.py", 
+    "identifier": "66240", 
+    "increment": 6, 
+    "instrument_name": "", 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-294", 
+    "irradiation_level": "F", 
+    "irradiation_position": 11, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)", 
+            "name": "Ar36"
+        }, 
+        "Ar37": {
+            "detector": "L1", 
+            "name": "Ar37"
+        }, 
+        "Ar38": {
+            "detector": "AX", 
+            "name": "Ar38"
+        }, 
+        "Ar39": {
+            "detector": "H1", 
+            "name": "Ar39"
+        }, 
+        "Ar40": {
+            "detector": "H2", 
+            "name": "Ar40"
+        }
+    }, 
+    "laboratory": "", 
+    "mass_spectrometer": "Felix", 
+    "material": "Muscovite", 
+    "measurement": "felix_analysis340_60_no_center.py", 
+    "post_equilibration": "felix_pump_extraction_line.py", 
+    "post_measurement": "felix_pump_ms.py", 
+    "project": "Holland01108", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Holland01108", 
+    "sample": "3A Unheated", 
+    "source": {
+        "emission": 852.77, 
+        "trap": 248.271
+    }, 
+    "spec_sha": "83ee0c754067293b6f3a8f6f303262219cccec84", 
+    "timestamp": "2018-04-19T20:46:09.920857", 
+    "tripped_conditional": null, 
+    "username": "MHeizler", 
+    "uuid": "64f10a7e-6860-4da1-8de0-1e070a792c18", 
+    "whiff_result": null
+}
