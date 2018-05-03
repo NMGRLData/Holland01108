@@ -1,0 +1,136 @@
+{
+    "acquisition_software": "Pychron17.7(Exp0.2,DVC0.1)", 
+    "aliquot": 1, 
+    "analysis_type": "unknown", 
+    "analyst_name": "", 
+    "comment": "F:1 1A 750 C 63-45, ~ 2mg mg", 
+    "commit": "92043cfbaaf823e061f5828e12c5804bbeae4ce6", 
+    "conditionals": [
+        {
+            "analysis_types": null, 
+            "frequency": 10, 
+            "hash_id": 5125665183617312372, 
+            "level": 10, 
+            "location": "setupfiles/spectrometer/default_conditionals.yaml", 
+            "ntrips": 1, 
+            "start_count": 5, 
+            "teststr": "L2(CDD).deflection==3250"
+        }
+    ], 
+    "data_reduction_software": "Pychron17.7(DVC0.1)", 
+    "detectors": {
+        "AX": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0.0, 
+            "gain": 0
+        }
+    }, 
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor", 
+                "name": "Lab Hum.", 
+                "pub_date": "2018-05-03T02:53:12", 
+                "title": "iServer Hum.", 
+                "value": 21.9
+            }, 
+            {
+                "device": "RPiWeather", 
+                "name": "Lab Hum. 2", 
+                "pub_date": "2018-05-03T06:29:05", 
+                "title": "Base Station Hum.", 
+                "value": 24.1253356933594
+            }
+        ], 
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure", 
+                "name": "Pressure", 
+                "pub_date": "2018-05-03T06:23:25", 
+                "title": "Building", 
+                "value": 101.5
+            }, 
+            {
+                "device": "AirPressure2", 
+                "name": "Pressure2", 
+                "pub_date": "2018-05-03T06:19:32", 
+                "title": "Lab", 
+                "value": 88.5
+            }, 
+            {
+                "device": "RPiWeather", 
+                "name": "Lab Pressure", 
+                "pub_date": "2018-05-03T06:00:18", 
+                "title": null, 
+                "value": 864.563720703125
+            }
+        ], 
+        "lab_temperatures": []
+    }, 
+    "experiment_queue_name": "Furance_4_27_2018", 
+    "extraction": "felix_furnace.py", 
+    "identifier": "66230", 
+    "increment": 21, 
+    "instrument_name": "", 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-294", 
+    "irradiation_level": "F", 
+    "irradiation_position": 1, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)", 
+            "name": "Ar36"
+        }, 
+        "Ar37": {
+            "detector": "L1", 
+            "name": "Ar37"
+        }, 
+        "Ar38": {
+            "detector": "AX", 
+            "name": "Ar38"
+        }, 
+        "Ar39": {
+            "detector": "H1", 
+            "name": "Ar39"
+        }, 
+        "Ar40": {
+            "detector": "H2", 
+            "name": "Ar40"
+        }
+    }, 
+    "laboratory": "", 
+    "mass_spectrometer": "Felix", 
+    "material": "Muscovite", 
+    "measurement": "felix_analysis340_60_no_center.py", 
+    "post_equilibration": "felix_pump_extraction_line.py", 
+    "post_measurement": "felix_pump_ms.py", 
+    "project": "Holland01108", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Holland01108", 
+    "sample": "1A 750", 
+    "source": {
+        "emission": 852.77, 
+        "trap": 248.831
+    }, 
+    "spec_sha": "074ed23958c1d635fb36cf9f763fb00c0336156d", 
+    "timestamp": "2018-05-03T06:29:32.726574", 
+    "tripped_conditional": null, 
+    "username": "", 
+    "uuid": "bb19b7e7-40f4-4e2d-9add-9a85451db285", 
+    "whiff_result": null
+}
